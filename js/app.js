@@ -83,22 +83,29 @@
   }
 
   function setIcon(id){
+      $('body').css({
+      // 'background-image': 'url("./img/strikes1.jpg")'
+    });
     if(id < 300) {
-      return './img/thunderstorm.png';
+      $('body').css({
+        // 'background-image': 'url(\'../img/lightning1.gif\')';
+
+      });
+      return './gifs/lightning2.gif';
     }
     if (id < 600) {
-      return './img/rain.png';
+      return './gifs/rain.rain.gif';
     }
     if (id < 700) {
-      return './img/snow.png';
+      return './gifs/snow.gif';
     }
     if (id === 800) {
-      return './img/sun.png';
+      return './gifs/sun.gif';
     }
     if (id === 801) {
-      return './img/partly-cloudy.png';
+      return './gifs/partly-cloudy.gif';
     }
     if (id < 900) {
-      return './img/cloudy.png';
+      return './gifs/cloudy.gif';
     }
   }

@@ -1,18 +1,20 @@
 body {
-    background-color: lightblue;
-    font-family: 'Diplomata SC', cursive;  
+    background-color: black;
+    background-image: url('lightning2.gif');
+    font-family: 'Diplomata SC', cursive;
+    color: white;
 }
 
 .data-container, .zip {
     text-align: center;
-    background-color: lightblue;
+
+    /*background-color: lightblue;*/
 }
 
 #icon {
   height: 300px;
   width: 300px;
 }
-
 
 .temp, .temp_max, .tamp_min {
     display: inline-block;
